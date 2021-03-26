@@ -2,9 +2,13 @@
 
 1. Simulation
  
- `python lacim_d_num_cluster_3_original_1667.py` to get the results of the second row in Table 1.
+ To get the results of the second row in Table 1,
+ 1). run lacim_d_num_cluster_3_original_1667.py
+ 2). np.mean(z_perf_ivae_discrete_3,axis=1), np.mean(s_perf_ivae_discrete_3,axis=1)
  
- `python lacim_d_num_cluster_5.py ` to get the results of the third row in Table 1.
+ To get the results of the third row in Table 1,
+ 1) run lacim_d_num_cluster_5.py 
+ 2) np.mean(z_perf_ivae_discrete_5,axis=1), np.mean(s_perf_ivae_discrete_5,axis=1)
 
 2. Real World (Colored MNIST)
 
