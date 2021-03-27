@@ -3,7 +3,7 @@
 """
 Created on Wed Feb 19 23:31:31 2020
 
-@author: sunxinwei
+@author:  xinsun
 """
 import numpy as np
 import torch
