@@ -17,5 +17,5 @@
 
 - `CUDA_VISIBLE_DEVICES=0 python LaCIM_rho.py --epochs 120 --optimizer sgd --lr 0.1 --lr_decay 0.5 --lr_controler 80 --in_channel 3 --batch-size 256 --test-batch-size 256 --reg 0.0002 --beta 1 --dataset mnist --num_classes 2 --env_num 2 --seed -1 --zs_dim 32 --root ./data/colored_MNIST_0.02_env_2_0_c_2_0.10/ --test_ep 50 --lr2 0.0005 --reg2 0.005 --sample_num 10 --image_size 28 --z_ratio 0.5` to get the results of ours in Table 3.
 
-- `CUDA_VISIBLE_DEVICES=0 python d_LaCIM.py --epochs 120 --optimizer sgd --lr 0.1 --lr_decay 0.5 --lr_controler 80 --in_channel 3 --batch-size 256 --test-batch-size 256 --reg 0.00005 --dataset mnist --num_classes 2 --env_num 2 --seed -1 --zs_dim 32 --root ./data/colored_MNIST_0.02_env_2_3_c_2_0.10/ --test_ep 50  --lr2 0.02 --reg2 0.05 --sample_num 10 --image_size 28 --alpha 8.0 --gamma 1.0 --beta 1.0 --z_ratio 0.5` 
+- `CUDA_VISIBLE_DEVICES=0 python d_LaCIM.py --epochs 200 --optimizer sgd --lr 0.3 --lr_decay 0.5 --lr_controler 120 --in_channel 3 --batch-size 256 --test-batch-size 256 --reg 0.0005 --dataset mnist --num_classes 2 --env_num 2 --seed -1 --zs_dim 32 --root ./data/colored_MNIST_0.02_env_2_3_c_2_0.10/ --test_ep 100  --lr2 0.007 --reg2 0.08 --sample_num 10 --image_size 28 --alpha 8.0 --gamma 1.0 --beta 1.0 --z_ratio 0.5` 
 
